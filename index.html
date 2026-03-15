@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="MinhaViagem — descubra destinos incríveis ao redor do mundo e planeje sua próxima aventura." />
+  <meta name="description"
+    content="MinhaViagem — descubra destinos incríveis ao redor do mundo e planeje sua próxima aventura." />
   <title>MinhaViagem — Explore o Mundo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <!-- ===== NAVEGAÇÃO ===== -->
   <header class="cabecalho" id="topo">
     <nav class="navegacao" aria-label="Navegação principal">
-      <a class="logo" href="#topo">✈ MinhaViagem</a>
+      <a class="logo" href="#topo">✈ Minha Viagem</a>
       <ul class="navegacao__lista">
-        <li><a class="navegacao__link" href="#minha-viagem">MinhaViagem</a></li>
-        <li><a class="navegacao__link" href="#nos-encontre">NosEncontre</a></li>
+        <li><a class="navegacao__link" href="#minha-viagem">Minha Viagem</a></li>
+        <li><a class="navegacao__link" href="#nos-encontre">Nos Encontre</a></li>
         <li><a class="navegacao__link" href="#conselhos">Conselhos</a></li>
         <li><a class="navegacao__link navegacao__link--cta" href="#nos-encontre">Reservar Agora</a></li>
       </ul>
@@ -31,7 +36,8 @@
     <!-- — BANNER — -->
     <section class="banner" id="home" aria-label="Banner principal">
       <div class="banner__overlay">
-        <h1 class="banner__titulo">Descubra o Mundo<br /><span class="banner__destaque">Uma Aventura de Cada Vez</span></h1>
+        <h1 class="banner__titulo">Descubra o Mundo<br /><span class="banner__destaque">Uma Aventura de Cada Vez</span>
+        </h1>
         <p class="banner__subtitulo">Vilarejo a vilarejo, memória a memória — deixe-nos guiar a sua próxima jornada.</p>
         <a class="banner__botao" href="#minha-viagem">Explorar Destinos</a>
       </div>
@@ -40,7 +46,7 @@
     <!-- — SEÇÃO 1: MINHA VIAGEM — -->
     <section class="secao secao--clara" id="minha-viagem" aria-label="Seção MinhaViagem">
       <div class="secao__container">
-        <span class="secao__rotulo">MinhaViagem</span>
+        <span class="secao__rotulo">Minha Viagem</span>
         <h2 class="secao__titulo">Destinos que Vão Ficar no Coração</h2>
         <p class="secao__descricao">
           Cada lugar guarda uma história única. Selecione o seu próximo destino e prepare-se
@@ -96,7 +102,7 @@
     <!-- — SEÇÃO 2: NOS ENCONTRE — -->
     <section class="secao secao--escura" id="nos-encontre" aria-label="Seção NosEncontre">
       <div class="secao__container">
-        <span class="secao__rotulo secao__rotulo--claro">NosEncontre</span>
+        <span class="secao__rotulo secao__rotulo--claro">Nos Encontre</span>
         <h2 class="secao__titulo secao__titulo--claro">Fale com a Nossa Equipe</h2>
         <p class="secao__descricao secao__descricao--claro">
           Nossos especialistas em viagem estão prontos para criar o roteiro perfeito para você.
@@ -129,22 +135,26 @@
             </div>
           </div>
 
-          <form class="formulario" id="formulario-contato" action="#nos-encontre" method="get" aria-label="Formulário de contato">
+          <form class="formulario" id="formulario-contato" action="#nos-encontre" method="get"
+            aria-label="Formulário de contato">
             <div class="formulario__grupo">
               <label class="formulario__label" for="nome">Nome Completo</label>
               <input class="formulario__campo" id="nome" type="text" name="nome" placeholder="Seu nome" required />
             </div>
             <div class="formulario__grupo">
               <label class="formulario__label" for="email">E-mail</label>
-              <input class="formulario__campo" id="email" type="email" name="email" placeholder="seu@email.com" required />
+              <input class="formulario__campo" id="email" type="email" name="email" placeholder="seu@email.com"
+                required />
             </div>
             <div class="formulario__grupo">
               <label class="formulario__label" for="destino">Destino Desejado</label>
-              <input class="formulario__campo" id="destino" type="text" name="destino" placeholder="Ex: Santorini, Grécia" />
+              <input class="formulario__campo" id="destino" type="text" name="destino"
+                placeholder="Ex: Santorini, Grécia" />
             </div>
             <div class="formulario__grupo">
               <label class="formulario__label" for="mensagem">Mensagem</label>
-              <textarea class="formulario__campo formulario__campo--textarea" id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos sobre a viagem dos seus sonhos..."></textarea>
+              <textarea class="formulario__campo formulario__campo--textarea" id="mensagem" name="mensagem" rows="4"
+                placeholder="Conte-nos sobre a viagem dos seus sonhos..."></textarea>
             </div>
             <button class="formulario__botao" type="submit">Enviar Mensagem</button>
           </form>
@@ -250,4 +260,5 @@
   </footer>
 
 </body>
+
 </html>

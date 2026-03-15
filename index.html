@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MinhaViagem — descubra destinos incríveis ao redor do mundo e planeje sua próxima aventura." />
+  <title>MinhaViagem — Explore o Mundo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVEGAÇÃO ===== -->
+  <header class="cabecalho" id="topo">
+    <nav class="navegacao" aria-label="Navegação principal">
+      <a class="logo" href="#topo">✈ MinhaViagem</a>
+      <ul class="navegacao__lista">
+        <li><a class="navegacao__link" href="#minha-viagem">MinhaViagem</a></li>
+        <li><a class="navegacao__link" href="#nos-encontre">NosEncontre</a></li>
+        <li><a class="navegacao__link" href="#conselhos">Conselhos</a></li>
+        <li><a class="navegacao__link navegacao__link--cta" href="#nos-encontre">Reservar Agora</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+  <main>
+
+    <!-- — BANNER — -->
+    <section class="banner" id="home" aria-label="Banner principal">
+      <div class="banner__overlay">
+        <h1 class="banner__titulo">Descubra o Mundo<br /><span class="banner__destaque">Uma Aventura de Cada Vez</span></h1>
+        <p class="banner__subtitulo">Vilarejo a vilarejo, memória a memória — deixe-nos guiar a sua próxima jornada.</p>
+        <a class="banner__botao" href="#minha-viagem">Explorar Destinos</a>
+      </div>
+    </section>
+
+    <!-- — SEÇÃO 1: MINHA VIAGEM — -->
+    <section class="secao secao--clara" id="minha-viagem" aria-label="Seção MinhaViagem">
+      <div class="secao__container">
+        <span class="secao__rotulo">MinhaViagem</span>
+        <h2 class="secao__titulo">Destinos que Vão Ficar no Coração</h2>
+        <p class="secao__descricao">
+          Cada lugar guarda uma história única. Selecione o seu próximo destino e prepare-se
+          para colecionar momentos que durarão para sempre.
+        </p>
+
+        <div class="cards">
+
+          <article class="card" id="card--santorini">
+            <div class="card__icone">🏛️</div>
+            <h3 class="card__titulo">Santorini, Grécia</h3>
+            <p class="card__texto">
+              Casas brancas e cúpulas azuis espelhadas no Mar Egeu. Um dos cenários
+              mais românticos do planeta, perfeito para casais e fotógrafos.
+            </p>
+            <a class="card__link" href="#nos-encontre">Saiba Mais</a>
+          </article>
+
+          <article class="card" id="card--cinque-terre">
+            <div class="card__icone">🌊</div>
+            <h3 class="card__titulo">Cinque Terre, Itália</h3>
+            <p class="card__texto">
+              Cinco vilarejos coloridos pendurados em falésias sobre o Mediterrâneo.
+              Trilhas deslumbrantes, frutos do mar frescos e vinho local esperando por você.
+            </p>
+            <a class="card__link" href="#nos-encontre">Saiba Mais</a>
+          </article>
+
+          <article class="card" id="card--colmar">
+            <div class="card__icone">🏡</div>
+            <h3 class="card__titulo">Colmar, França</h3>
+            <p class="card__texto">
+              A "Pequena Veneza" da Alsácia encanta com casas medievais com enxaimel,
+              canais floridos e um charme intemporal de conto de fadas.
+            </p>
+            <a class="card__link" href="#nos-encontre">Saiba Mais</a>
+          </article>
+
+          <article class="card" id="card--dubrovnik">
+            <div class="card__icone">⚓</div>
+            <h3 class="card__titulo">Dubrovnik, Croácia</h3>
+            <p class="card__texto">
+              A "Pérola do Adriático" exibe muralhas medievais intactas sobre mar
+              cristalino. Cenário de Game of Thrones e destino dos sonhos.
+            </p>
+            <a class="card__link" href="#nos-encontre">Saiba Mais</a>
+          </article>
+
+        </div><!-- .cards -->
+      </div>
+    </section>
+
+    <!-- — SEÇÃO 2: NOS ENCONTRE — -->
+    <section class="secao secao--escura" id="nos-encontre" aria-label="Seção NosEncontre">
+      <div class="secao__container">
+        <span class="secao__rotulo secao__rotulo--claro">NosEncontre</span>
+        <h2 class="secao__titulo secao__titulo--claro">Fale com a Nossa Equipe</h2>
+        <p class="secao__descricao secao__descricao--claro">
+          Nossos especialistas em viagem estão prontos para criar o roteiro perfeito para você.
+          Entre em contato e comece a planejar sua aventura hoje mesmo.
+        </p>
+
+        <div class="contato">
+
+          <div class="contato__info">
+            <div class="contato__item" id="contato--email">
+              <span class="contato__icone">📧</span>
+              <div>
+                <strong>E-mail</strong>
+                <p>contato@minhaviagem.com.br</p>
+              </div>
+            </div>
+            <div class="contato__item" id="contato--telefone">
+              <span class="contato__icone">📞</span>
+              <div>
+                <strong>Telefone</strong>
+                <p>+55 (11) 9 9999-0000</p>
+              </div>
+            </div>
+            <div class="contato__item" id="contato--endereco">
+              <span class="contato__icone">📍</span>
+              <div>
+                <strong>Endereço</strong>
+                <p>Av. Paulista, 1000 — São Paulo, SP</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="formulario" id="formulario-contato" action="#nos-encontre" method="get" aria-label="Formulário de contato">
+            <div class="formulario__grupo">
+              <label class="formulario__label" for="nome">Nome Completo</label>
+              <input class="formulario__campo" id="nome" type="text" name="nome" placeholder="Seu nome" required />
+            </div>
+            <div class="formulario__grupo">
+              <label class="formulario__label" for="email">E-mail</label>
+              <input class="formulario__campo" id="email" type="email" name="email" placeholder="seu@email.com" required />
+            </div>
+            <div class="formulario__grupo">
+              <label class="formulario__label" for="destino">Destino Desejado</label>
+              <input class="formulario__campo" id="destino" type="text" name="destino" placeholder="Ex: Santorini, Grécia" />
+            </div>
+            <div class="formulario__grupo">
+              <label class="formulario__label" for="mensagem">Mensagem</label>
+              <textarea class="formulario__campo formulario__campo--textarea" id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos sobre a viagem dos seus sonhos..."></textarea>
+            </div>
+            <button class="formulario__botao" type="submit">Enviar Mensagem</button>
+          </form>
+
+        </div><!-- .contato -->
+      </div>
+    </section>
+
+    <!-- — SEÇÃO 3: CONSELHOS — -->
+    <section class="secao secao--gradiente" id="conselhos" aria-label="Seção Conselhos">
+      <div class="secao__container">
+        <span class="secao__rotulo">Conselhos</span>
+        <h2 class="secao__titulo">Dicas de Ouro para Viajar Melhor</h2>
+        <p class="secao__descricao">
+          Aproveite ao máximo cada destino com os nossos conselhos práticos reunidos por
+          viajantes experientes ao redor do globo.
+        </p>
+
+        <div class="dicas">
+
+          <article class="dica" id="dica--planejamento">
+            <div class="dica__numero">01</div>
+            <div class="dica__conteudo">
+              <h3 class="dica__titulo">Planeje com Antecedência</h3>
+              <p class="dica__texto">
+                Reserve voos e acomodações com pelo menos 3 meses de antecedência para
+                conseguir os melhores preços. Use alertas de preço em apps como Google Flights.
+              </p>
+            </div>
+          </article>
+
+          <article class="dica" id="dica--seguro">
+            <div class="dica__numero">02</div>
+            <div class="dica__conteudo">
+              <h3 class="dica__titulo">Não Esqueça o Seguro Viagem</h3>
+              <p class="dica__texto">
+                Um seguro viagem adequado pode salvar seu orçamento em emergências médicas
+                ou cancelamentos. É um pequeno investimento de grande impacto.
+              </p>
+            </div>
+          </article>
+
+          <article class="dica" id="dica--cultura">
+            <div class="dica__numero">03</div>
+            <div class="dica__conteudo">
+              <h3 class="dica__titulo">Respeite a Cultura Local</h3>
+              <p class="dica__texto">
+                Aprenda ao menos algumas palavras no idioma local. Um simples "obrigado"
+                no idioma nativo abre portas e corações em qualquer lugar do mundo.
+              </p>
+            </div>
+          </article>
+
+          <article class="dica" id="dica--mochila">
+            <div class="dica__numero">04</div>
+            <div class="dica__conteudo">
+              <h3 class="dica__titulo">Viaje Leve</h3>
+              <p class="dica__texto">
+                A regra de ouro: se você está em dúvida se vai usar, não leve. Uma mala menor
+                significa mais liberdade, menos taxas e mais energia para explorar.
+              </p>
+            </div>
+          </article>
+
+          <article class="dica" id="dica--offline">
+            <div class="dica__numero">05</div>
+            <div class="dica__conteudo">
+              <h3 class="dica__titulo">Baixe Mapas Offline</h3>
+              <p class="dica__texto">
+                O Google Maps permite salvar mapas para uso sem internet. Faça isso antes de
+                embarcar para nunca ficar perdido, mesmo sem sinal de dados.
+              </p>
+            </div>
+          </article>
+
+          <article class="dica" id="dica--gastronomia">
+            <div class="dica__numero">06</div>
+            <div class="dica__conteudo">
+              <h3 class="dica__titulo">Explore a Gastronomia Local</h3>
+              <p class="dica__texto">
+                Fuja dos restaurantes turísticos. Os melhores sabores estão nos mercados locais
+                e nos estabelecimentos frequentados pelos moradores da cidade.
+              </p>
+            </div>
+          </article>
+
+        </div><!-- .dicas -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="rodape">
+    <div class="rodape__container">
+      <p class="rodape__logo">✈ MinhaViagem</p>
+      <p class="rodape__texto">Explorando o mundo, uma história de cada vez.</p>
+      <a class="rodape__topo" href="#topo" aria-label="Voltar ao topo da página">↑ Voltar ao Topo</a>
+    </div>
+    <div class="rodape__direitos">
+      <p>&copy; 2026 MinhaViagem. Feito com ❤️ no Brasil.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
